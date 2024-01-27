@@ -1,0 +1,39 @@
+*{
+padding: 0;
+margin: 0;
+background-color: #E0F4FF;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+
+}
+.roll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 55px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: 220px;
+    background-color: #0B60B0;
+    color: white;
+    height: 112px;
+    width: 412px;
+    border-radius: 50px;
+    border: 2px solid #0B60B0;
+}
+.roll:hover{
+    background-color: white;
+    color: #0B60B0;
+    
+}
+
+.output{
+    display: flex;
+    justify-content: center;
+   margin-top: 62px;
+}
+

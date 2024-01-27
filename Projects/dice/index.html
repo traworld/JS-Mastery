@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dice Roll</title>
+</head>
+        <body>
+        <div class="container">
+        <a href="#" onclick="roll()" class="roll">Roll Me</a> 
+        </div>
+
+        <div class="output">
+        <div id="result"></div>
+        </div>
+
+        <script>
+        function roll() {
+        const randomNumber = Math.floor(Math.random() * 6) + 1;
+        document.getElementById("result").innerHTML = " <img src='public/"+randomNumber+".png'/>" ;
+        }
+        </script>
+
+        </body>
+</html>
