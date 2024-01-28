@@ -81,3 +81,12 @@ console.log(num11);
 
 // there are other operators too called prefix and postfix
 // x++ ,  ++x
+
+// example
+
+let a = 10
+let b = 12
+// console.log(++(++a));  
+// syntax error
+// here increment or decrement always works in variable
+// so the increment will be on a and the nit will be 11 then the increment will shift to 11 adnd thats ont possible
