@@ -15,3 +15,14 @@ const course = {
 
 const {courseInstructor:ins} = (course)
 console.log(ins);
+
+const developer = {
+    problemsolver: true
+}
+console.log(typeof developer.problemsolver);
+
+
+// ******************************** api ************************
+
+// api are written like a object without a variable name and a array with various objects
+// in api  both key and values are written as a string
