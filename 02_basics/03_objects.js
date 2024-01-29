@@ -43,9 +43,9 @@ console.log(lit[sym]);
 lit.fname= "sam"
 
 // to freeze an object we can do object,freeze(name of object to freeze)
-// Object.freeze(lit)
-// lit.fname= "Rahul"
-// console.log(lit);
+Object.freeze(lit)
+lit.fname= "Rahul"
+console.log(lit);
 
 
 // we can add function iside an objects
