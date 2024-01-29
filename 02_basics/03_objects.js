@@ -13,8 +13,7 @@ const user1 = {
    name: "sahil" ,
    email : "hi@gmail.com" ,
    DOB: "16-04-2002",
-   "fullName": "sahil singh"
-                                                     // this is vlaue and keys   // by default js take key ie name as string
+   "fullName": "sahil singh"                     // this is vlaue and keys   // by default js take key ie name as string
     }
 
  // there are 2 way to access string
