@@ -1,45 +1,45 @@
-// // function is like a collection of various code and and  this functions can be used at various place
+// function is like a collection of various code and and  this functions can be used at various place
 
-// function sayMyName(){
-//     console.log("s");
-//     console.log("a");
-//     console.log("h");
-//     console.log("i");
-//     console.log("l");
-// }
+function sayMyName(){
+    console.log("s");
+    console.log("a");
+    console.log("h");
+    console.log("i");
+    console.log("l");
+}
 
-// sayMyName // now just sayMyName is a reference of  a function now to execute we need to put parentheis
+sayMyName // now just sayMyName is a reference of  a function now to execute we need to put parentheis
 
-// sayMyName()  // execution 
+sayMyName()  // execution 
 
-// // function sayMyName() // () this where we pass parameter where we give definition to function
-// // while calling we call it as arguments
-
-
-// // in function if we return then after result nothing is read by js
-
-// function addTwoNumbers(number1, number2){
-
-//     // let result = number1 + number2
-//     // return result
-//     return number1 + number2
-// }
-
-// const result = addTwoNumbers(3, 5)
-
-// // console.log("Result: ", result);
+// function sayMyName() // () this where we pass parameter where we give definition to function
+// while calling we call it as arguments
 
 
-// function loginUserMessage(username = "sam"){
-//     if(!username){
-//         console.log("PLease enter a username");
-//         return
-//     }
-//     return `${username} just logged in`
-// }
+// in function if we return then after result nothing is read by js
 
-// console.log(loginUserMessage("hitesh"))
-// console.log(loginUserMessage("hitesh")) 
+function addTwoNumbers(number1, number2){
+
+    // let result = number1 + number2
+    // return result
+    return number1 + number2
+}
+
+const result = addTwoNumbers(3, 5)
+
+// console.log("Result: ", result);
+
+
+function loginUserMessage(username = "sam"){
+    if(!username){
+        console.log("PLease enter a username");
+        return
+    }
+    return `${username} just logged in`
+}
+
+console.log(loginUserMessage("hitesh"))
+console.log(loginUserMessage("hitesh")) 
 
 // suppose we r making  a cart functionality and we want user information to add the items 
 
