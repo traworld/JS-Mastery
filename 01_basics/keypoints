@@ -4,3 +4,4 @@ javascript automatically avoid spaces
 we never define datatyoe in javascript
 prototypes are written in console log
 variables can hold any value like function onjects etc
+javascript is single threaded
