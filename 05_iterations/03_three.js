@@ -30,6 +30,7 @@ console.log(map);  // here it will only print it once as they are not the differ
 
 
 // how to give loop on map
+// map is not iteratable so its not written in for in loop
 // if we only want key then the whole key valu pair wil coe in array
 
 for (const key of map) {
