@@ -32,6 +32,29 @@ if (value == 200 ) {
 const check = 222
 if (check ==222) console.log(`Hi i m implicit scope`);
 
+// nesting in else if
 
+const students = 200
+if (students <100 ) {
+    console.log(`not less than 100`);
+} else if (students == 300) {
+    console.log(`not equal to 300`);
+} else  {
+    console.log(`total students 200`);
+}
 
+// real life 
+// we cam check multiple variable by putting in the  conditoin && this means both should be true or not 
+// if we wan to check many variables  is true or not use  ||
 
+const studentsPresent = true
+const idscan = true
+const nailsCut = false
+
+if (students && idscan) {
+    console.log(`all students are present`);
+} 
+
+if (students || nailsCut) {                // ya to studetns true ho ya to nailcut true ho agar hai to print it
+    console.log(`misbehave`);
+}
