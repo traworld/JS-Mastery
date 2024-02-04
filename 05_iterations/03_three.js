@@ -2,9 +2,9 @@
 // these are array specific rule
 // in array we can store string and objects
 
-// for (const iterator of object) {    // iterator means the variable name and object means kispe hame ye for loop lagana hai
-    
-// }
+// for (const iterator of object) { }   
+// iterator means the variable name and object means kispe hame ye for loop lagana hai
+// we can add a string in forof loop and then the loop will work on each char "hello world" 
 // ther no need of increment or decrement
 
 // eg
@@ -31,7 +31,7 @@ console.log(map);  // here it will only print it once as they are not the differ
 
 // how to give loop on map
 // map is not iteratable so its not written in for in loop
-// if we only want key then the whole key valu pair wil coe in array
+// if we only want key then the whole key valu pair wil come in array
 
 for (const key of map) {
    console.log(key);          // here it will be an array of both key value pair
@@ -44,7 +44,7 @@ for (const [key,value] of map) {
 // for loop on object
 // on object there are some other ways to iterate but this eg is not iteratable
 const myObject = {
-   game1: 'NFS',
+   game1: 'NFl',
    game2: 'Spiderman'
 }
 
