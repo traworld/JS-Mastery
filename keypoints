@@ -5,3 +5,4 @@ we never define datatyoe in javascript
 prototypes are written in console log
 variables can hold any value like function onjects etc
 javascript is single threaded
+when u start a scope you ned to return it without fail
