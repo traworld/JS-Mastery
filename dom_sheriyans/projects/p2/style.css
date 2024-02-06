@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+ font-family:Poppins;
+    height: 100%;
+    width: 100%;
+    background-color: cornflowerblue;
+}
+ body{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}     
+
+.container{
+    position: relative;
+    padding: 10px;
+    background-color: #fff;
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+  
+}
+.container img{ 
+    object-fit: cover;
+    height: 80%;
+    width: 100%;
+    border-radius: 10px;
+}
+.container i {
+    color: rgb(255, 255, 255);
+    font-size: 70px;
+    position: absolute;    
+    /* abhi ye pure page ka top or left lega to jiske according karna hai usse position relative akr dena */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%) scale(0);
+    /* transform translate we can onyl use it once nside a div */
+    opacity: 0.9;
+    transition: all ease 0.4s;
+}
