@@ -6,3 +6,7 @@ prototypes are written in console log
 variables can hold any value like function onjects etc
 javascript is single threaded
 when u start a scope you ned to return it without fail
+
+
+return statement:
+In functions, the "return" statement is typically used to specify the value that the function should return. However, when it appears within a loop, its behavior changes. In this case, the "return" statement terminates not only the loop but also the entire function in which it is used. This means that whenever the "return" statement appears, The loop is terminated immediately, and any subsequent code within the loop is terminated as well.

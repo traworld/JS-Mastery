@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM | Chai aur code</title>
+</head>
+<body style="background-color: #212121; color: #fff;">
+    <div class="parent">
+        <!-- this is a comment -->
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thursday</div>
+    </div>
+</body>
+<script>
+//     // select the parent element and say whatare the element present inside it 
+   
+//     const sel = document.querySelector('.parent')
+//     console.log(sel.children);                         // here we get html collection
+//     console.log(sel.children[1].innerHTML); 
+    
+//     for (let yo = 0; yo < sel.children.length; yo++) {
+//          console.log(sel.children[yo].innerHTML);
+        
+//     }
+
+// // to check how many children are present inside the parent we use children property
+// parent.children[1].style.color = "orange"
+//     // console.log(parent.firstElementChild);
+//     // console.log(parent.lastElementChild);
+
+//     const dayOne = document.querySelector('.day')
+//     // console.log(dayOne);
+//     // console.log(dayOne.parentElement);
+//     // console.log(dayOne.nextElementSibling);
+
+//     console.log("NODES: ", parent.childNodes);
+
+
+//new 
+const parent = document.querySelector('.parent')
+console.log(parent);
+console.log(parent.children);   // here we get a htmlcollection which is a array like collection and can apply loop
+
+console.log(parent.children[1].innerHTML);  // to print a txt inside any tag we write innerhtml or innertext or inner content
+// in innercontent we can also see the hidden content like those also that we have display none
+
+
+for (let val = 0; val < parent.children.length; val++) {      // parent.children gives us hyml collection
+   console.log(parent.children[val].innerHTML); 
+}
+
+parent.children[1].style.color = "orange"
+
+// in parent there are other element as well from children that is 
+// firstElementChild , lastElementChild
+
+console.log(parent.firstElementChild.innerHTML);
+
+// to move form child Elemnt to parent element we write parentElemnt
+const val = document.querySelector('.day')
+console.log(val.innerHTML);
+console.log(val.parentElement);
+// other elemnt is nextElmentSibling this will return to the next child of the first child
+
+console.log(val.nextElementSibling.innerHTML);
+
+// to check how many nodes are there inside an parent we write childodes
+
+console.log(parent.childNodes);
+
+// in DOM everything is a node element even a space or  line break is a node element
+
+</script>
