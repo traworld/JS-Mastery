@@ -21,7 +21,66 @@
 
 <script>
     // in js every events run sequentially
+    // in addEventListener when we add a function then the default value at the end is false and it is default
+
+    // inside   document.querySelector('#images').addEventListener('click', function(e){ // here inside the function there we can place various objects here it is e
+    // to capture event we  write "e" inside the function params ansd then we can reference it later insidde the function
+
+    // event propogation also called bubbling where it means that the propogation run from the bottom or the  child to the parent when we use false as a closing function
+    // and if we use true then it goes from top to bottom called capturing event
+    // to stop propogating the evnt that is bubbling or capturing event we use a method called stoppropogation inside the function by giving the name of function object that is inside param
+
+
+
+
+    //real world scenerio
+    // so while defining the objecct we can a dd a method called .target where it targets the id of the event and we can add  many method and if we use .parentNode then the whole tag will be selected to manipulate
+    // to remove a tag we use a method called remove inside the function
+
+
+
+
+      // document.getElementById('owl').onclick = function(){
+    //     alert("owl clicked")
+    // }
+
+     // attachEvent()
+    // jQuery - on
+
+    // type, timestamp, defaultPrevented
+    // target, toElement, srcElement, currentTarget,
+    // clientX, clientY, screenX, screenY
+    // altkey, ctrlkey, shiftkey, keyCode
+
+    // document.getElementById('images').addEventListener('click', function(e){
+    //     console.log("clicked inside the ul");
+    // }, false)
+
+    // document.getElementById('owl').addEventListener('click', function(e){
+    //     console.log("owl clicked");
+    //     e.stopPropagation()
+    // }, false)
     
+    // document.getElementById('google').addEventListener('click',function(e){
+    //     e.preventDefault();
+    //     e.stopPropagation()
+    //     console.log("google clicked");
+    // }, false)
+   
+    
+    document.querySelector('#images').addEventListener('click', function(e){
+        console.log(e.target.tagName);
+        if (e.target.tagName === 'IMG') {
+            console.log(e.target.id);
+            let removeIt = e.target.parentNode
+            removeIt.remove()
+        }
+    
+        
+    })
+    
+    //removeIt.parentNode.removeChild(removeIt)
+
 </script>
 
 </html>
