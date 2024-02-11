@@ -1,0 +1,11 @@
+general knowledge 
+
+
+js is syncrinous means line by line code wull execute
+it is a sngle threaded language ....... so its called it is slow 
+each operation waits for early one to complete then it will start the other
+
+blocking code vs non blocking code its 2 ttpe where js is written
+
+blocking code block the flow of progrsm
+
