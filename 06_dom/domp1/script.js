@@ -31,3 +31,27 @@ const bdy = document.querySelector("body")
 
 // now using switch case
 
+// syntax example
+
+btn.forEach(function(btns) {
+    btns.addEventListener('click', function(nameanything) {
+        switch (nameanything.target.id) {
+            case "grey":
+                bdy.style.backgroundColor = nameanything.target.id;
+                break;
+            case "white":
+                bdy.style.backgroundColor = nameanything.target.id;
+                break;
+            case "blue":
+                bdy.style.backgroundColor = nameanything.target.id;
+                break;
+            case "yellow":
+                bdy.style.backgroundColor = nameanything.target.id;
+                break;
+            default:
+                // default behavior if none of the cases match
+                break;
+        }
+    });
+});
+
