@@ -1,4 +1,4 @@
-"use strict"; // it wil be treated as newer versin of javascript cod e
+"use strict"; // it wil be treated as newer versin of javascript code
 
 let name = "sammy"
 let nameId = 123

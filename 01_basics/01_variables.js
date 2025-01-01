@@ -10,4 +10,4 @@ let accountPassword = "1"
 
 
 console.table([accountId , accountPassword]);
-// two types of console .log and . table where table converts all the console id into table and print it
+// two types of console .log and . table where table converts all the console id into table and print it 
