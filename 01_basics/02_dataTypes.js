@@ -13,7 +13,7 @@ console.log(typeof name);
 /*
 number = maxing number assignes is 2 to the power 53 to the datatype number
 bigint = to store very large number that number datatype cant store
-string = " " In JavaScript, strings are sequences of characters enclosed in single (' '), double (" "), or backtick ( ) quotes. In JavaScript, a string is a sequence of characters, and these characters can include letters, numbers, symbols, spaces, and more
+string = " " In JavaScript, strings are sequences of characters enclosed in single (' '), double (" "), or backtick (`` ) quotes. In JavaScript, a string is a sequence of characters, and these characters can include letters, numbers, symbols, spaces, and more
 boolean = true/flase
 undefined = above example 
 null
