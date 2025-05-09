@@ -18,6 +18,9 @@ console.log(`sammy ${nameId} is a good coder ${diffNameId }. ` ); // here sapces
 const game = new String ('sammy')
 //new String is a key value pair
 // to acces the the value in the given key we can write
+// () this is called constructor
+//String is a constructor function that creates a String object.
+// Using new String('sammy') creates a String object, not a primitive string.
 
 console.log(game[1]);
 
