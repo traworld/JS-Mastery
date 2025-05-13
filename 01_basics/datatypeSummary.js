@@ -11,6 +11,21 @@ console.log(id == secId);  // false
 // to use bigint put n after the big number js will understand its a bigint
 
 //symbol make the value different even if we provide the same value 
+// Symbols are mainly used when:
+
+//     You want to create hidden object properties (not accidentally overwritten).
+// const secretKey = Symbol("secret");
+
+// const user = {
+//   name: "Alice",
+//   [secretKey]: "hiddenValue"
+// };
+
+// console.log(user[secretKey]); // "hiddenValue"
+// console.log(Object.keys(user)); // ["name"] — secretKey is hidden
+
+
+
 
 // in non primitive we have give the exact reference of the value (heap memory)
 // types : array , object , function
