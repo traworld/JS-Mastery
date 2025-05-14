@@ -63,3 +63,35 @@ lit.greeting_two = function() {
    
 }
 console.log(lit.greeting_two());
+
+
+
+// new learning 
+// here if we take object
+
+const try1 = {
+   name: "sahil",
+   age : 12,
+   greet: function () {
+      console.log(`hi ${this.name}`);
+      
+   }
+}
+
+// to take any keys from object we use this. property
+// and properties is called name and age 
+// and greet is called method 
+
+// we can also delete properties by using delete syntax 
+
+delete try1.age;
+
+// we can check if this property is there or no in the object
+
+try1.hasOwnProperty("age")
+
+//we can also check what all properties does user. have and it gives an array or elements
+Object.keys(try1);// here it gives an array of keys
+Object.values(try1); // here it gives an array of values
+Object.entries(try1); // here it gives an array of entries
+

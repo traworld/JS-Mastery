@@ -154,6 +154,16 @@ console.log(newSpl);
 
 // here there is a reverce array where it will reverce the exact array
 
+// there is a tign called spread operator like if we want to add 2 arrays e can use concat but if we want to add 2 or more arryas then we will use spread operator
+// syntax ...arr1,...arr2
+// here spread operator returns in a new variable
+
+const arr1 = [1,2,3]
+const newArr1 = [4,5,6]
+
+const newarr = [...arr1, ...newArr1]
+console.log(newarr);
+
 
 
 

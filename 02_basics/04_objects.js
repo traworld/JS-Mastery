@@ -69,3 +69,4 @@ console.log(Object.entries(users));  // this converts into an array of both key 
 console.log(Object.hasOwnProperty("name"));  // to check if thepropoerthy is thre or not inside an object
 
 
+// new learning 
