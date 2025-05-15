@@ -70,3 +70,34 @@ console.log(Object.hasOwnProperty("name"));  // to check if thepropoerthy is thr
 
 
 // new learning 
+// now we can combine all the other objects into 1
+// there are 2 ways 1st be assign method and the other be the spread operator
+
+// assign
+
+const obj5 = {1: "a", 2: "b"};
+const obj6 = {3: "a", 4: "b"};
+const obj7 = {5: "a", 6: "b"};
+
+const obj8 = Object.assign({},obj5,obj6)
+
+// another way is spread operator 
+
+const obj9 = {...obj7, ...obj6}
+
+// next is to handle the array of objects
+
+const arrObj = [
+    {
+        name:'sahil',
+    },
+    {
+        age: 12
+    }
+]
+// now if i want to access it i can write
+
+console.log(arrObj[0].name);
+
+
+

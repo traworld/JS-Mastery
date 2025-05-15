@@ -98,3 +98,44 @@ function returnSecondValue2(getArray2){
 }
 
 returnSecondValue2(myNewArray1)
+
+
+// new learning
+
+// rest operator in function it looks like spread operator but its different in use 
+//it collects all the arguments into an array 
+// here if we give all th arguments that are not in use or not declared earlier then its not usable so we take rest operator it convert all the non assigned operator in to an array 
+
+// eg
+
+function example(num2) {
+    return(num2 + num2)
+}
+
+console.log(example(2,3,4,5));  // here as the there is ionly 1 aprameter give that it num2 so it will take the first argument and rest others are just not taken so we use operator so it will do the calculation but also it will take the other passed argument and turn it into an array
+
+
+
+function example(...num2) {
+    return(num2 + num2)
+}
+
+console.log(example(2,3,4,5)); // this is wrong it gives the sum of 2 arrays 
+
+//now if we want ot add a number and then make an aray so first we need to asign the variable
+
+//eg
+
+function ex (num1,...num2){
+ 
+    return(sum = num1+num1)
+          
+    
+}
+console.log(ex(1,2,3,4));
+
+
+// it is very helpful to add return so it will give you the value of the function and save it in the function
+
+// and if we dont add return then it will give you the answer undefined as it was never stored in the function 
+
