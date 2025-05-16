@@ -66,4 +66,14 @@ const addTwo = function(num){       // but here when we give it a variable then 
 
 
 
+ 
+// new learnings
+// scopes= global scope , block scope , lexical scope , strict scope , nested scope 
+
+// globaql scope = a variable scope which you can access anywhere in the code base
+// block scope are the scope which we can use only in the functions and it is declared using let an const not a var coz var can be modified
+
+// here nested scope  are the scope where the parent function cant access the scope but the child scope can access the parent scope variable 
+
+// hoisting in js means you can call the the function before and if its added in the variable using let or const then it cant. be called earlier as the variable should be initialized first  first before it is called 
 
