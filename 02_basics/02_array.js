@@ -38,8 +38,8 @@ console.log(real);
 // to convert anything into array we do array constructor  'Array.' and then method ()in log
 // its a questionaire so its written in log
 
-console.log(Array.isArray("SAHIL"));
-console.log(Array.from("SAHIL"));
+console.log(Array.isArray("SAHIL")); // it checks if its a string or not
+console.log(Array.from("SAHIL")); // it converts it into a array
 
 // to conert variable into array we give method "of"
 

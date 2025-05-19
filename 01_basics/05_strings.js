@@ -35,7 +35,7 @@ console.log(game.indexOf('m')); // index of the char
 
 // to divide string use subString to divie=de but it doesnot allow -value
 const name1 = game.substring(1,3)
-console.log(name1);
+console.log(name1); 
 
 
 // to use -value useslice to check from backward
@@ -52,6 +52,8 @@ console.log(name3.trim());
 
 const url = "googledotcom"
 console.log(url.replace('dot', "."));
+// here it works only on the first match means if we get 1 dot then it will replace the first one and the other will be left as it is 
+// so to select all we need to use regex ( /  /g) here g means global which means everything. contains dot will be excluded to .
 
 
 // to check wether something is include in or not use includes

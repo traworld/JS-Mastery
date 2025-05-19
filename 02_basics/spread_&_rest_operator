@@ -1,0 +1,21 @@
+//  here the key tip
+
+// rest operator is used in function and
+// spread operator is used in objects and arrays
+
+// // in Array
+// So if we use spread operator in array it merges the array into 1 single array
+// eg 
+
+//syntax
+// let new = [...one, 2,3,4]
+// in objects
+
+// here in objects it does the same it adds up all the objects propertis
+
+// ... syntax
+// let age = {...one, handleObject} or if we do this like give an empty parenthesis then it will add all the element into the first empty array
+
+
+
+// rest operator take the arguments passed and converts into an array a single array

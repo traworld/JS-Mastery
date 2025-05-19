@@ -32,6 +32,7 @@ console.log(typeof score4);
 let valueInnumber4 = Number(score4)  //here it automatically gives value 0 for null so keep in mind when using and it will take null as a object
 console.log(valueInnumber4);
 console.log(typeof valueInnumber4);
+// null is automatically converted into a number 0
 
 let score5 = undefined
 console.log(typeof score5);
